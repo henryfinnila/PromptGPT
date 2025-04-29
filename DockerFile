@@ -1,0 +1,5 @@
+FROM python:3.11-slim
+WORKDIR /app
+COPY testsuite.py .
+RUN pip install pytest
+CMD ["python","-m","unittest","testsuite.py","-v"]
