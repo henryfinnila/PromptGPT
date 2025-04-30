@@ -1,1 +1,15 @@
 .env
+
+__pycache__/
+*.py[cod]
+
+venv/
+
+.ipynb_checkpoints/
+
+.vscode/
+
+solution.py
+results.csv
+
+docker-compose.override.yml
